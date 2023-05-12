@@ -9,6 +9,11 @@ import { ItemService } from './item.service'
 })
 export class ItemsComponent implements OnInit {
   items: Array<Item>
+  strokeOutline = {
+    color: '#000',
+    textColor: '#fff',
+    width: 2
+  }
 
   constructor(private itemService: ItemService) {}
 

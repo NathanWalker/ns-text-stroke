@@ -3,4 +3,9 @@
 
 Button.-primary {
   font-size: 18;
+  
+}
+
+.label-outline {
+  -webkit-text-stroke: 2 black;
 }
